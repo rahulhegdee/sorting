@@ -3,7 +3,6 @@ public class QuickSort{
         partition(arr, 0, arr.length-1);
     }
     public static void partition(int[] arr, int start, int end){
-        display(arr);
         if(start >= end){//if the partition size is 1, then return
             return;
         }
